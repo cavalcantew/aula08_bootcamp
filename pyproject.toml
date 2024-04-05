@@ -6,7 +6,10 @@ authors = ["Wagner Cavalcante <wagnerc@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
+pandera = "^0.18.3"
+pandas = "^2.2.1"
+fastparquet = "^2024.2.0"
 
 
 [build-system]
